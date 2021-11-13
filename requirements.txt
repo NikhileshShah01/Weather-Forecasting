@@ -1,4 +1,4 @@
-Streamlit==0.89.0
+Streamlit==0.79.0
 matplotlib==3.2.2
 DateTime==4.3
 plotly==5.3.1
