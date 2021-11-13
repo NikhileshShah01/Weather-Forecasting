@@ -1,5 +1,6 @@
-streamlit==0.63.1
+streamlit==1.1.0
 matplotlib==3.2.2
 DateTime==4.3
 plotly==5.3.1
 requests==2.25.1
+python==3.9.6
