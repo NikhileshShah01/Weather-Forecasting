@@ -3,4 +3,5 @@ matplotlib==3.2.2
 DateTime==4.3
 plotly==5.3.1
 requests==2.25.1
+streamlit_metrics==0.1.0
 Python==3.9.7
