@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime,requests
 import plotly.graph_objects as go
+from matplotlib import pyplot as plt
 
 st.title("8-DAY WEATHER FORECAST :partly_sunny:")
 
