@@ -118,8 +118,8 @@ if(st.button("SUBMIT")):
         st.image(f"http://openweathermap.org/img/wn/{icon}@2x.png",width=70)
 
         
-        st.metric("TEMPERATURE",temp+temp_unit)
-        st.metric("WEATHER",current_weather)
+        st.write("TEMPERATURE",temp+temp_unit)
+        st.write("WEATHER",current_weather)
         st.subheader(" ")
         
         if graph=="Bar Graph":
