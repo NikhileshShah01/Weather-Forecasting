@@ -114,16 +114,12 @@ if(st.button("SUBMIT")):
         else:
             temp=str(round((((x["main"]["temp"]-cel)*1.8)+32),2))
         
-        col1, col2 = st.expander(2)
-        with col1:
-            st.write("## Current Temperature ")
-        with col2:
-            st.image(f"http://openweathermap.org/img/wn/{icon}@2x.png",width=70)
+        st.write("## Current Temperature ")
+        st.image(f"http://openweathermap.org/img/wn/{icon}@2x.png",width=70)
 
         
-        col1, col2= st.expander(2)
-        col1.metric("TEMPERATURE",temp+temp_unit)
-        col2.metric("WEATHER",current_weather)
+        st.metric("TEMPERATURE",temp+temp_unit)
+        st.metric("WEATHER",current_weather)
         st.subheader(" ")
         
         if graph=="Bar Graph":
