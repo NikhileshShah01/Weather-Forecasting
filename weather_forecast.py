@@ -114,7 +114,7 @@ if(st.button("SUBMIT")):
         else:
             temp=str(round((((x["main"]["temp"]-cel)*1.8)+32),2))
         
-        col1, col2 = st.container(2)
+        col1, col2 = st.expander(2)
         with col1:
             st.write("## Current Temperature ")
         with col2:
