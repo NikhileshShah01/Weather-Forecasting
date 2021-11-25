@@ -158,7 +158,7 @@ if(st.button("SUBMIT")):
         
         st.header(' ')
         st.header(' ')
-        st.header(" Made with :heart: by team of Nikhilesh Shah, Nandita Agrawal and Nisha Vaghela 😄")
+        st.header(" Made with :heart: by Nikhilesh Shah")
 
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
