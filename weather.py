@@ -2,7 +2,7 @@ import streamlit as st
 import datetime,requests
 import plotly.graph_objects as go
 
-st.title("8-DAY WEATHER FORECAST :partly_sunny:")
+st.title("8-DAY WEATHER FORECAST :cloud:")
 
 city=st.text_input("ENTER THE NAME OF THE CITY ")
 
