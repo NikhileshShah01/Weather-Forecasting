@@ -159,8 +159,8 @@ if(st.button("SUBMIT")):
         st.header(' ')
         st.header(' ')
         st.markdown("   Made with :heart:")
-        st.markdown("            by Nikhilesh Shah 🤩
-        st.markdown("                      Nandita Agarwal 🤗 &
+        st.markdown("            by Nikhilesh Shah 🤩")
+        st.markdown("                      Nandita Agarwal 🤗 &")
         st.markdown("                              Nisha Vaghela 🥰")
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
