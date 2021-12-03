@@ -2,7 +2,7 @@ import streamlit as st
 import datetime,requests
 import plotly.graph_objects as go
 
-st.title("8-DAY WEATHER FORECAST 🌎🌧️")
+st.title("8-DAY WEATHER FORECAST 🌧️")
 
 city=st.text_input("ENTER THE NAME OF THE CITY ")
 
@@ -158,10 +158,10 @@ if(st.button("SUBMIT")):
         
         st.header(' ')
         st.header(' ')
-        st.markdown(" Made with :heart:")
-        st.markdown('''by Nikhilesh Shah 🤩
-                            Nandita Agarwal 🤗 &
-                                Nisha Vaghela 🥰''')
+        st.markdown("   Made with :heart:")
+        st.markdown("            by Nikhilesh Shah 🤩
+        st.markdown("                      Nandita Agarwal 🤗 &
+        st.markdown("                              Nisha Vaghela 🥰")
     except KeyError:
         st.error(" Invalid city!!  Please try again !!")
 
