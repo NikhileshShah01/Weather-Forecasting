@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime,requests
-from plotly import graph_objs as go
+from plotly import graph_objects as go
 
 st.set_page_config(page_title='Nikhilesh Shah', page_icon=":rainbow:")
 
