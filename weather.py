@@ -18,7 +18,7 @@ st.markdown(
     '''
     <style>
     .stApp,.e8zbici2 {
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61+oIVFF7FL.png");
+    background-image: url("https://wallpaperaccess.com/full/1442216.jpg");
     background-size: cover;
     }
     </style>
