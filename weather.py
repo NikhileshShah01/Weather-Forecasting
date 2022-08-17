@@ -15,14 +15,14 @@ speed=st.selectbox("SELECT WIND SPEED UNIT ",["Metre/sec","Kilometre/hour"])
 graph=st.radio("SELECT GRAPH TYPE ",["Bar Graph","Line Graph"])
 
 st.markdown(
-    '''
+    """
     <style>
-    .stApp,.e8zbici2 {
-    background-image: url("https://wallpaperaccess.com/full/1442216.jpg");
-    background-size: cover;
+    .reportview-container {
+        background: url("https://wallpaperaccess.com/full/1442216.jpg")
     }
+  
     </style>
-    ''',
+    """,
     unsafe_allow_html=True
 )
 
